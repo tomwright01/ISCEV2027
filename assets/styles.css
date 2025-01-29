@@ -11,6 +11,6 @@
 }
 
 .bg-image {
-    background-image: "img/toronto_skyline.jpg";
+    background-image: url("img/toronto_skyline.jpg");
     height: 100vh;
 }

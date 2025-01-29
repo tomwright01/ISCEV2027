@@ -9,3 +9,8 @@
     padding: 20px;
 
 }
+
+.bg {
+    background-image: "img/toronto_skyline.jpg";
+    height: 100vh;
+}

@@ -1,7 +1,11 @@
+body {
+    font-family: "Newsreader";
+}
 .countdown {
     justify-content: center;
     align-items: center;
     font-size: 3rem;
+    text-shadow: 1px 1px 1px #aaa;
 }
 .timer-box {
     border: 1px solid #ccc;
@@ -9,8 +13,7 @@
     padding: 20px;
 
 }
-
 .bg-image {
-    background-image: url("img/toronto_skyline.jpg");
-    height: 100vh;
+    background-image: url("../img/toronto_skyline_l.jpg");
+    height: 50vh;
 }

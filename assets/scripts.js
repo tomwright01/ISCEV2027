@@ -7,6 +7,7 @@ function bodyLoad(){
 
 function startCountdown() {
     // Set the target date and time
+    alert("hiya");
     countdownDate = new Date(Date.UTC(2027, 06, 14, 08, 30));
 
     // Show the countdown clock

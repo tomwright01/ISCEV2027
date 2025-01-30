@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
     <head>
         <title>ISCEV 2027</title>
@@ -17,8 +17,16 @@
         <link rel="stylesheet" href="assets/styles.css">
         <script src="assets/scripts.js"></script>
     </head>
-    <body onload="bodyLoad()" class="bg-image">
-        <nav class="navbar navbar-expand-sm bg-light bg-gradient">
+    <body onload="bodyLoad()">
+        <div class="bg-image opacity-75" style="
+            background-image: url('img/toronto_skyline_l.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 0;
+            height: 100vh;">
+        </div>
+        <nav class="navbar navbar-expand-sm bg-light bg-gradient fixed-top">
             <div class="container-fluid">
                 <!-- Logo -->
                 <a class="navbar-brand" href="#">
@@ -60,36 +68,37 @@
                 </div>
             </div>
         </nav>
-        <div class="container text-white">
+        <div class="content-wrapper container-fluid text-white justify-content-center d-flex">
             <div class="row">
-                <div class="col-md-6 offset-md-3">
-                    <h1 class="text-center mb-4">ISCEV LXIV Toronto</h1>
-                </div>
-            </div>
-        </div>
-        <div class="container text-white">
-            <div class="timer-box">
-                <div class="countdown" id="countdown">
-                    <div class="row">
-                        <div class="col">
-                            <span id="years"></span>
-                        </div>
-                        <div class="col">
-                            Years
-                        </div>
+                <div class="col-md-auto mx-auto">
+                    <div class="text h1">ISCEV LXIV Toronto</div>
                     <div class="w-100"></div>
-                        <div class="col">
-                            <span id="days"></span>
-                        </div>
-                        <div class="col">
-                            Days
-                        </div>
-                        <div class="w-100"></div>
-                        <div class="col">
-                            <span id="hours"></span>
-                        </div>
-                        <div class="col">
-                            Hours
+                    <div class="container text-white">
+                        <div class="timer-box">
+                            <div class="countdown" id="countdown">
+                                <div class="row g-0">
+                                    <div class="col g-0">
+                                        <span id="years"></span>
+                                    </div>
+                                    <div class="col g-0">
+                                        <span>Years</span>
+                                    </div>
+                                    <div class="w-100"></div>
+                                    <div class="col">
+                                        <span id="days"></span>
+                                    </div>
+                                    <div class="col">
+                                        <span>Days</span>
+                                    </div>
+                                    <div class="w-100"></div>
+                                    <div class="col">
+                                        <span id="hours"></span>
+                                    </div>
+                                    <div class="col">
+                                        <span>Hours</span>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

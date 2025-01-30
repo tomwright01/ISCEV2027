@@ -8,12 +8,18 @@ body {
     text-shadow: 1px 1px 1px #aaa;
 }
 .timer-box {
-    border: 1px solid #ccc;
     border-radius: 10px;
-    padding: 20px;
-
+    padding: 00px;
 }
-.bg-image {
-    background-image: url("../img/toronto_skyline_l.jpg");
-    height: 50vh;
+.text{
+    position: relative;
+    left:0;
+    right:0;
+    padding: 20px;
+}
+.content-wrapper{
+    z-index:3;
+    position: absolute;
+    margin-top:100px;
+    top:0px;
 }

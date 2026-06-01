@@ -7,7 +7,8 @@ function bodyLoad(){
 
 function startCountdown() {
     // Set the target date and time
-    countdownDate = new Date(Date.UTC(2027, 6, 12, 8, 00));
+    // countdownDate = new Date(Date.UTC(2027, 5, 12, 12, 00)); 
+    countdownDate = new Date("Jun 12, 2027 12:00:00").getTime();
 
     // Show the countdown clock
     document.getElementById("countdown").style.display = "flex";
